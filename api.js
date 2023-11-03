@@ -1,8 +1,10 @@
 const api = `https://cors-everywhere.onrender.com/https://portal.api.gupy.io/api/v1/jobs?`;
-const jobName = "&jobName=front-end";
+let jobSearch = document.getElementById("busca").value;
+let jobName = "&jobName=" + jobSearch;
 const type = "&type=vacancy_type_effective";
 const isRemoteWork = "&isRemoteWork=true";
 const limit = "&limit=3000";
+
 
 const fetchGupy = async () => {
 
@@ -101,5 +103,4 @@ const renderGupy = async () => {
   // Insert the job cards string into the HTML
   document.getElementById("cards-container").innerHTML = jobCardsString;
 };
-
-renderGupy();
+  renderGupy();

@@ -17,15 +17,23 @@
 
     <!-- Icons -->
     <script src="https://unpkg.com/phosphor-icons"></script>
-
     <title>GUPYJOBS .</title>
 </head>
 
 <body>
     <header>
-        <h1 class="logo">GUPYJOBS
+        <!-- LOGO -->
+        <h1 class="logo" class="logo">GUPYJOBS
             <span>.</span>
         </h1>
+
+        Barra de Buscas
+        <div>
+            <input class="h-20 bg-red-500" type="text" name="" id="busca" value="front end">
+        </div>
+
+        <button class="bg-green-500 w-40 h-10" onclick="customSearch()">Busca</button>
+
     </header>
     <div class="container">
         <!-- 
@@ -139,7 +147,8 @@
         <p>Feito com 💜 por <a href="https://birobirobiro.dev/" target="_blank">birobirobiro</a></p>
     </footer>
 
-    <script src="./api.js" type="module"> </script>
+    <!-- <script src="./api.js" type="module"> </script> -->
+    <script src="./search.js"> </script>
 
 </body>
 
