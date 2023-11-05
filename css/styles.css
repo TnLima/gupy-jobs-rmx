@@ -18,11 +18,13 @@ body {
   color: var(--white);
   font-family: "Roboto", sans-serif;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   gap: 0.5rem;
   color: var(--pink);
   text-decoration: none;
@@ -165,9 +167,30 @@ input[type]:focus {
   /* outline: 2px solid var(--pink); */
 }
 
+/* font-family: 'Cabin Sketch',
+sans-serif;
+font-family: 'Calistoga',
+serif;
+font-family: 'Fredericka the Great',
+serif;
+font-family: 'Pridi',
+serif; */
+
 .logo {
-  font-size: 2.5rem;
+  font-size: 10rem;
+  text-align: center;
   color: var(--white);
+  font-family: 'Fredericka the Great', sans-serif;
+  background-color: white;
+  padding-bottom: 60px;  
+}
+
+.logoSmall{
+  font-size: 3rem;
+}
+
+.logoBig{
+  font-size: 10rem;
 }
 
 .logo span {
@@ -179,8 +202,8 @@ footer {
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content: center;
-  height: 6.25rem;
+  justify-content: center;  
+  height: 4rem;
   margin-bottom: 3rem;
   background-color: var(--bg-color-card);
 }
@@ -190,7 +213,6 @@ footer {
   flex-direction: column;
   margin: 3rem;
   gap: 3rem;
-  background-color: red;
 
   /* código adicionado */
   justify-items: center;

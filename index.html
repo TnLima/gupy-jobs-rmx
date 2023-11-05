@@ -16,23 +16,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
+    <!-- fontes adicionais -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Calistoga&family=Fredericka+the+Great&family=Pridi:wght@700&display=swap"
+        rel="stylesheet">
+
     <!-- Icons -->
     <script src="https://unpkg.com/phosphor-icons"></script>
-    <title>GUPYJOBS</title>
+    <title>GUPYJOBS REMIX</title>
 </head>
 
-<body class="flex flex-col items-center">
+<body class="body">
     <header>
-        <!-- LOGO -->
-        <h1 class="logo" class="logo">GUPYJOBS</h1>
-    </header>
+        <p>Baseado no projeto original do <a href="https://birobirobiro.dev/" target="_blank">birobirobiro</a></p>
+    </header>  
+
+    <!-- LOGO -->
+    <div class="logo">
+        <span class="logoBig" style="color: blue">g</span>
+        <span class="logoSmall" style="color: red">u</span>
+        <span class="logoSmall" style="color: rgb(255, 217, 0)">p</span>
+        <span class="logoSmall" style="color: blue">y</span>
+        <span class="logoSmall" style="color: green">j</span>
+        <span class="logoSmall" style="color: red">o</span>
+        <span class="logoSmall" style="color: blue">b</span>
+        <span class="logoSmall" style="color: rgb(255, 217, 0)">s</span>
+    </div>
     <div class="container">
 
         <!-- Barra de Buscas -->
-            <div class="searchContainer">
-                <input type="text" name="" id="barraBusca" value="" placeholder="Busque aqui!">
-                <button class="" id="searchButton" onclick="customSearch()"></button>
-            </div>
+        <div class="searchContainer">
+            <input type="text" name="" id="barraBusca" value="" placeholder="Busque aqui!">
+            <button class="" id="searchButton" onclick="customSearch()">
+                <img src="images/busca.svg" alt=""></button>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/TnLima/gupy-jobs-rmx" class="icons"><img src="images/github.svg" alt=""></a>
+            <!-- <a class="icons"><img src="images/linkedin.svg" alt=""></a> -->
+        </div>
         <!-- 
         <div class="find-jobs">
             <div class="find-header">
@@ -140,9 +164,9 @@
     </div>
     </div>
 
-    <footer>
+    <!-- <footer class="footer" id="footer">
         <p>Feito com 💜 por <a href="https://birobirobiro.dev/" target="_blank">birobirobiro</a></p>
-    </footer>
+    </footer> -->
 
     <!-- <script src="./api.js" type="module"> </script> -->
     <script src="js/search.js"> </script>

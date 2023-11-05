@@ -4,11 +4,11 @@ function customSearch() {
     let jobSearch = document.getElementById("barraBusca").value;
     let jobName = "&jobName=" + jobSearch;
     const type = "&type=vacancy_type_effective";
-    const isRemoteWork = "&isRemoteWork=true";
-    const limit = "&limit=3000";
+    const isRemoteWork = "&isRemoteWork=false";
+    const limit = "&limit=300";
 
     // console.log("HELLO");
-    
+
     const fetchGupy = async () => {
 
         document.getElementById("loading").style.display = "block";
@@ -92,7 +92,7 @@ function customSearch() {
       </span>
       </div>
 
-        <a href="${element["careerPageUrl"]}" target="_blank">
+        <a class="textoGrande" href="${element["careerPageUrl"]}" target="_blank">
         Ver vaga
         <i class="ph-arrow-square-out-fill"></i>
         </a>
