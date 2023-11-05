@@ -9,7 +9,7 @@
 }
 
 :root {
-  --bg-color: #181b23;
+  --bg-color: #e4e4e4;
   --bg-color-card: #1f2029;
   --pink: #ed64a6;
   --white: #eeeef2;
@@ -166,7 +166,7 @@ input[type="radio"] {
 }
 
 input[type]:focus {
-  outline: 2px solid var(--pink);
+  /* outline: 2px solid var(--pink); */
 }
 
 .logo {
