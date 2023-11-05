@@ -1,0 +1,29 @@
+.searchContainer {
+    background-color: white;
+    width: 800px;
+    height: 60px;
+    border-radius: 100px;  
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#barraBusca{
+    border-radius: 100px;
+    height: 90%;
+    width: 80%;
+    text-indent: 30px;
+    margin-left: 4px;
+    outline: none;
+    color: black;
+}
+
+#searchButton{
+    background-color: blue;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    margin-right: 4px;
+}

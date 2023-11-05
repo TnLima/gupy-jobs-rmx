@@ -1,7 +1,7 @@
 function customSearch() {
 
     const api = `https://cors-everywhere.onrender.com/https://portal.api.gupy.io/api/v1/jobs?`;
-    let jobSearch = document.getElementById("busca").value;
+    let jobSearch = document.getElementById("barraBusca").value;
     let jobName = "&jobName=" + jobSearch;
     const type = "&type=vacancy_type_effective";
     const isRemoteWork = "&isRemoteWork=true";
