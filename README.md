@@ -1,13 +1,11 @@
 
 <h1 align="center">GupyJobs</h1>
 
-<p align="center">Site de busca baseado no Gupy</p>
+<p align="center"><a href="https://tnlima.github.io/gupy-jobs-rmx">Clique aqui para testar a página!</a></p>
 
 [![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
 
 ![CRT](https://github.com/TnLima/gupy-jobs-rmx/blob/main/images/crt.png?raw=true)
-
-<p align="center"><a href="https://tnlima.github.io/gupy-jobs-rmx">Clique aqui para testar a página!</a></p>
 
 ## Contexto
 
