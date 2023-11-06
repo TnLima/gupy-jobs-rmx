@@ -24,7 +24,7 @@ function customSearch() {
     let jobName = "&jobName=" + jobSearch;
     const type = "&type=vacancy_type_effective";
     const isRemoteWork = "&isRemoteWork="+result;
-    const limit = "&limit=300";
+    const limit = "&limit=50";
 
     // console.log("HELLO");
 
