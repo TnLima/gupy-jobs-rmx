@@ -1,10 +1,29 @@
+//botao remoto
+let result = false;
+const toggleContainer = document.querySelector("toggleContainer"),
+    toggle = document.querySelector(".toggleRemoto");
+
+toggle.addEventListener("click", () => {
+    
+    if (result == false) {
+        result = true;
+    } else if (result == true){ 
+        result = false;
+    }
+    
+    console.log(result);
+})
+
+toggle.addEventListener("click", () => toggle.classList.toggle("active"));
+//tutorial:  https://www.youtube.com/watch?v=TyITCYwsWHs
+
 function customSearch() {
 
     const api = `https://cors-everywhere.onrender.com/https://portal.api.gupy.io/api/v1/jobs?`;
     let jobSearch = document.getElementById("barraBusca").value;
     let jobName = "&jobName=" + jobSearch;
     const type = "&type=vacancy_type_effective";
-    const isRemoteWork = "&isRemoteWork=false";
+    const isRemoteWork = "&isRemoteWork="+result;
     const limit = "&limit=300";
 
     // console.log("HELLO");

@@ -163,9 +163,9 @@ input[type="radio"] {
   margin: unset;
 }
 
-input[type]:focus {
-  /* outline: 2px solid var(--pink); */
-}
+/* input[type]:focus {
+  outline: 2px solid var(--pink);
+} */
 
 /* font-family: 'Cabin Sketch',
 sans-serif;
@@ -224,7 +224,7 @@ footer {
 #cards-container {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 1.25rem;
+  gap: 4rem;
 }
 
 .cards {
