@@ -132,6 +132,14 @@ function customSearch() {
 
             for (let i = 0; i < jobCards.length; i++) {
                 document.getElementById("cards-container").innerHTML += jobCards[i];
+                document.getElementById("searchMsg").innerHTML = ""                
+
+            }
+
+            if (jobCards[0] == null) {
+                document.getElementById("searchMsg").innerHTML = `                
+                <div class="buscaNull">Vaga <span class="textRed"> não encontrada </span></div>
+                `
             }
             
         }
