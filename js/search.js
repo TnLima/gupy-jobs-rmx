@@ -24,7 +24,7 @@ function customSearch() {
     let jobName = "&jobName=" + jobSearch;
     const type = "&type=vacancy_type_effective";
     const isRemoteWork = "&isRemoteWork="+result;
-    const limit = "&limit=50";
+    const limit = "&limit=100";
 
     // console.log("HELLO");
 
@@ -117,13 +117,21 @@ function customSearch() {
         </a>
       </div>
     `;
-        });
+            
+        });     
+        
+        function card2html() {
 
-        // Join the job cards into a single string
-        const jobCardsString = jobCards.join("");
+            document.getElementById("cards-container").innerHTML = "";
 
-        // Insert the job cards string into the HTML
-        document.getElementById("cards-container").innerHTML = jobCardsString;
+            for (let i = 0; i < jobCards.length; i++) {
+                document.getElementById("cards-container").innerHTML += jobCards[i];
+            }
+            
+        }
+
+        card2html();
+
     };
     renderGupy();
 }
