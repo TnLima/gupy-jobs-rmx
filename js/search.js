@@ -17,6 +17,12 @@ toggle.addEventListener("click", () => {
 toggle.addEventListener("click", () => toggle.classList.toggle("active"));
 //tutorial:  https://www.youtube.com/watch?v=TyITCYwsWHs
 
+// Define a function to scroll by a percentage of the viewport height
+function scrollByPercentage(percentage) {
+    var scrollDistance = window.innerHeight * percentage;
+    window.scrollBy({ top: scrollDistance, behavior: 'smooth' });
+}
+
 function customSearch() {
 
     const api = `https://cors-everywhere.onrender.com/https://portal.api.gupy.io/api/v1/jobs?`;
@@ -131,6 +137,7 @@ function customSearch() {
         }
 
         card2html();
+        scrollByPercentage(0.4);
 
     };
     renderGupy();

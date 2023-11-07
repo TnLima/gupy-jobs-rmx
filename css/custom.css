@@ -2,11 +2,11 @@
     background-color: white;
     width: 90vw;
     height: 60px;
-    border-radius: 100px;      
+    border-radius: 100px;
     justify-items: center;
     align-items: center;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
 
 @media (min-width: 800px) {
@@ -17,7 +17,7 @@
 
 }
 
-#barraBusca{
+#barraBusca {
     border-radius: 100px;
     height: 90%;
     width: 80%;
@@ -28,21 +28,21 @@
     background-color: white;
 }
 
-#searchButton{
-    background-color:#1666DB;
+#searchButton {
+    background-color: #1666DB;
     border-radius: 100px;
     height: 50px;
     width: 50px;
     margin-right: 4px;
 }
 
-.footer{
+.footer {
     position: absolute;
     bottom: 0;
     display: flex;
 }
 
-.links{
+.links {
     display: flex;
     flex-direction: row;
     color: black;
@@ -52,22 +52,22 @@
     gap: 40px;
 }
 
-.icons{
+.icons {
     height: 60px;
     width: 60px;
 }
 
-.textoGrande{
+.textoGrande {
     font-size: 24px;
     color: rgb(58, 206, 255);
 }
 
-#checkbox{
+#checkbox {
     height: 40px;
     width: 40px;
 }
 
-.toggleRemoto {    
+.toggleRemoto {
     box-shadow: inset 0 0 6px 0px rgb(100, 100, 100);
     background-color: #1666DB;
     border-radius: 50px;
@@ -97,10 +97,33 @@
     /* Adjust the left value for active state */
 }
 
-#toggleContainer{
+#toggleContainer {
     color: gray;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 8px;
+}
+
+#doodleContainer {
+    display: flex;
+    border-radius: 40px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.doodle {
+    margin-top: 44px;
+    border-radius: 14px;
+    width: 590px;
+    height: 240px;
+    object-fit: cover;
+    object-position: 25% 25%;
+}
+
+.sombra {
+    box-shadow: -1px 1px 0px 0px rgba(191, 191, 191, 0.75);
+    -webkit-box-shadow: -1px 1px 0px 0px rgba(191, 191, 191, 0.75);
+    -moz-box-shadow: -1px 1px 0px 0px rgba(191, 191, 191, 0.75);
 }

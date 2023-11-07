@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=.8" />
 
     <!-- Links -->
     <link rel="stylesheet" href="css/styles.css">
@@ -29,20 +29,28 @@
 </head>
 
 <body class="body">
-    <header>
+    <!-- <header>
         <p>Baseado no projeto original do <a href="https://birobirobiro.dev/" target="_blank">birobirobiro</a></p>
-    </header>
+    </header> -->
 
     <!-- LOGO -->
-    <div class="logo">
-        <span class="logoBig" style="color: blue">g</span>
-        <span class="logoSmall" style="color: red">u</span>
-        <span class="logoSmall" style="color: rgb(255, 217, 0)">p</span>
-        <span class="logoSmall" style="color: blue">y</span>
-        <span class="logoSmall" style="color: green">j</span>
-        <span class="logoSmall" style="color: red">o</span>
-        <span class="logoSmall" style="color: blue">b</span>
-        <span class="logoSmall" style="color: rgb(255, 217, 0)">s</span>
+    <div class="logoContainer sombra">
+    
+        <div class="logo">
+            <span class="logoBig" style="color: blue">g</span>
+            <span class="logoSmall" style="color: red">u</span>
+            <span class="logoSmall" style="color: rgb(255, 217, 0)">p</span>
+            <span class="logoSmall" style="color: blue">y</span>
+            <span class="logoSmall" style="color: green">j</span>
+            <span class="logoSmall" style="color: red">o</span>
+            <span class="logoSmall" style="color: blue">b</span>
+            <span class="logoSmall" style="color: rgb(255, 217, 0)">s</span>
+        </div>
+    
+    </div>
+
+    <div id="doodleContainer">
+        <img class="doodle" src="images/doodles/synthwave.gif" alt="">
     </div>
     <div class="container">
 
@@ -50,14 +58,16 @@
             <div class="toggleRemoto" id="botaoRemoto"></div>
             <p>Remoto</p>
         </div>
-        <!-- Barra de Buscas -->
-        <div class="searchContainer">
-            <input type="text" name="" id="barraBusca" value="" placeholder="Busque aqui!">
-            <button class="" id="searchButton" onclick="customSearch()">
-                <img src="images/busca.svg" alt=""></button>
-        </div>
 
-      
+        <!-- Barra de Buscas -->
+        <div class="searchContainer sombra">
+            <input type="text" name="" id="barraBusca" value="" placeholder="Busque aqui!">
+
+            <!-- Botao de Buscas -->
+            <button class="" id="searchButton" onclick="customSearch()">
+                    <img src="images/busca.svg" alt="">
+            </button>
+        </div>      
 
         <!-- links  -->
         <div class="links">
