@@ -1,5 +1,5 @@
 
-<h1 align="center">GupyJobs</h1>
+<h1 align="center">GupyJobs 1.5</h1>
 
 <p align="center"><a href="https://tnlima.github.io/gupy-jobs-rmx">Clique aqui para testar a página!</a></p>
 
@@ -17,6 +17,12 @@ Uma plataforma de busca de empregos, construída para auxiliar a busca de empreg
 - Logo no estilo Google
 - Api de busca vinculada com botão "buscar"
 - Seletor para vagas remotas
+
+## Novidades 1.5
+
+- Barra de buscas sombreada
+- Perfomance da busca aprimorada
+- Buscas agora retornam 100 resultados
 
 ## Como Usar
 
