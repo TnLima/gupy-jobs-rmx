@@ -31,7 +31,6 @@ Uma plataforma de busca de empregos, construída para auxiliar a busca de empreg
 - Cards de resultados aceitam clique 🖱️
 - Logos maiores nos cards
 - Cores neutras nas informações dos cards
-- Ajustes na interface
 - Barra de busca aceita a tecla "Enter" ⌨️
 - Buscas abrem em nova aba 🗔
 - Ajustes na interface
