@@ -1,5 +1,5 @@
 
-<h1 align="center">🌟 GupyJobs 1.6 🌟</h1>
+<h1 align="center">🌇 GupyJobs 1.6 🌠</h1>
 
 <p align="center"><a href="https://tnlima.github.io/gupy-jobs-rmx">Clique aqui para testar a página!</a></p>
 
@@ -21,7 +21,7 @@ Uma plataforma de busca de empregos, construída para auxiliar a busca de empreg
 ## Novidades 1.5
 
 - Barra de buscas sombreada
-- Perfomance da busca aprimorada
+- Performance da busca aprimorada
 - Buscas agora retornam 100 resultados
 - Aviso, caso não encontrar a vaga buscada
   
