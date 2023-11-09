@@ -1,5 +1,5 @@
 
-<h1 align="center">GupyJobs 1.5</h1>
+<h1 align="center">🌟 GupyJobs 1.6 🌟</h1>
 
 <p align="center"><a href="https://tnlima.github.io/gupy-jobs-rmx">Clique aqui para testar a página!</a></p>
 
@@ -23,11 +23,22 @@ Uma plataforma de busca de empregos, construída para auxiliar a busca de empreg
 - Barra de buscas sombreada
 - Perfomance da busca aprimorada
 - Buscas agora retornam 100 resultados
+  
+## Novidades 1.6
+
+- Tema escuro 🌠
+- Cards de resultados aceitam clique 🖱️
+- Logos maiores nos cards
+- Cores neutras nas informações dos cards
+- Ajustes na interface
+- Barra de busca aceita a tecla "Enter" ⌨️
+- Buscas abrem em nova aba 🗔
 
 ## Como Usar
 
-- Informe a profissão.
-- Clique no botão de busca
+- Escolha entre vagas remotas ou presenciais
+- Informe o emprego na barra de buscas
+- Aperte "Enter" ou clique no botão de buscas
 
 ## Contato
 

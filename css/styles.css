@@ -26,19 +26,19 @@ a {
   /* display: flex;
   align-items: center; */
   gap: 0.5rem;
-  color: var(--pink);
+  color: lightgray;
   text-decoration: none;
   font-weight: 700;
 }
 
 a:hover {
   text-decoration: none;
-  color: #ec338d;
+  /* color: #ec338d; */
 }
 
 h1 {
   font-size: 1.2rem;
-  color: var(--pink);
+  /* color: var(--pink); */
 }
 
 h3,
@@ -94,7 +94,7 @@ button {
   margin: 0 auto;
   text-align: center;
   gap: 2rem;
-  color: var(--pink);
+  /* color: var(--pink); */
 }
 
 .find-header {
@@ -183,7 +183,7 @@ serif; */
   font-family: 'Fredericka the Great', sans-serif;
   /* background-color: red; */
   margin-top: -64px;
-  padding: 10px;  
+  padding: 34px;  
 }
 
 .logoContainer{
@@ -233,6 +233,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 4rem;
+  padding: 40px;
 }
 
 .cards {
@@ -240,7 +241,7 @@ footer {
   flex-direction: column;
   background-color: var(--bg-color-card);
   border: 0.01rem solid var(--border);
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   padding: 1.25rem;
   gap: 1.25rem;
   transition: all 0.3s ease 0s;

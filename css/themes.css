@@ -1,0 +1,23 @@
+.bg-dark{
+    background-color: #2c2e31;
+}
+
+.bg-lightdark {
+    background-color: #35383b;
+}
+
+.bg-red{
+    background-color: #FF0040;
+}
+
+.bg-white{
+    background-color: #FFFFF3;    
+}
+
+.text-white{
+    color: #FFFFF3;
+}
+
+.text-blue{
+    color:#1666DB;
+}
