@@ -23,6 +23,7 @@ Uma plataforma de busca de empregos, construída para auxiliar a busca de empreg
 - Barra de buscas sombreada
 - Perfomance da busca aprimorada
 - Buscas agora retornam 100 resultados
+- Aviso, caso não encontrar a vaga buscada
   
 ## Novidades 1.6
 
@@ -33,6 +34,7 @@ Uma plataforma de busca de empregos, construída para auxiliar a busca de empreg
 - Ajustes na interface
 - Barra de busca aceita a tecla "Enter" ⌨️
 - Buscas abrem em nova aba 🗔
+- Ajustes na interface
 
 ## Como Usar
 
